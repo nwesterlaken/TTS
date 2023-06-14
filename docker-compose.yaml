@@ -6,4 +6,6 @@ services:
     ports:
       - "5002:5002"
     command: >
-      tts-server -h
+      /bin/bash -c "
+        tts-server -h
+      "
