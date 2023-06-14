@@ -5,5 +5,3 @@ services:
     image: ghcr.io/coqui-ai/tts-cpu
     ports:
       - "5002:5002"
-    command: >
-        python3 TTS/server/server.py --model_name tts_models/en/vctk/vits
