@@ -6,5 +6,4 @@ services:
     ports:
       - "5002:5002"
     command: >
-        python3 TTS/server/server.py --list_models
         python3 TTS/server/server.py --model_name tts_models/en/vctk/vits
